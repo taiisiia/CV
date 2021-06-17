@@ -1,0 +1,87 @@
+:root{
+    font-size: 15px;
+}
+
+body {
+    background-color:darksalmon;
+}
+.main {
+    height: 97vh;
+    background-color:darksalmon;
+    font-size: 0px;
+    
+}
+
+.port1{
+    display: inline-block;
+    width: 200px;
+    border: darkslategray 5px solid;
+    
+}
+
+.divcv {
+    display: inline-block;
+}
+
+.info {
+    text-align: right;
+    margin: 0px;
+   
+}
+
+.work {
+    margin: 5px;
+
+}
+
+.educ {
+    margin: 5px;
+}
+
+.CV1 {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    font-size: 1rem;
+    
+}
+
+.CV2 {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    font-size: 1rem;
+    
+    
+
+}
+
+.port2{
+    display: inline-block;
+    width: 200px;
+    height: 230px;
+    object-fit: cover;
+    object-position: top;
+    border: darkslategray 5px solid;
+}
+
+.divjack{
+
+    display:inline-block;
+}
+
+.infojack {
+    
+    text-align: right;
+    margin: 0px;
+}
+
+.workjack {
+    margin: 5px;
+    
+}
+
+.educjack {
+    margin: 5px;
+  
+}
