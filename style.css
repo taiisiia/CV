@@ -1,87 +1,64 @@
-:root{
-    font-size: 15px;
+:root {
+  font-size: 15px;
 }
 
 body {
-    background-color:darksalmon;
+  background-color: beige;
 }
+
 .main {
-    height: 97vh;
-    background-color:darksalmon;
-    font-size: 0px;
-    
+  margin: 0;
+  height: 100vh;
+  font-size: 0px;
 }
 
-.port1{
-    display: inline-block;
-    width: 200px;
-    border: darkslategray 5px solid;
-    
-}
-
-.divcv {
-    display: inline-block;
-}
-
-.info {
-    text-align: right;
-    margin: 0px;
-   
-}
-
-.work {
-    margin: 5px;
-
-}
-
-.educ {
-    margin: 5px;
+.CV1,
+.CV2 {
+  display: inline-block;
+  width: 48%;
+  height: 100%;
+  font-size: 1rem;
 }
 
 .CV1 {
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    font-size: 1rem;
-    
+  padding-right: 20px;
 }
 
 .CV2 {
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-    font-size: 1rem;
-    
-    
-
+  padding-left: 20px;
 }
 
-.port2{
-    display: inline-block;
-    width: 200px;
-    height: 230px;
-    object-fit: cover;
-    object-position: top;
-    border: darkslategray 5px solid;
+.wrapper-tina,
+.wrapper-jack {
+  text-align: center;
 }
 
-.divjack{
-
-    display:inline-block;
+.port1,
+.port2 {
+  width: 200px;
+  height: 230px;
+  object-fit: cover;
+  object-position: top;
+  border: darkslategray 5px solid;
 }
 
+.info,
 .infojack {
-    
-    text-align: right;
-    margin: 0px;
+  text-align: right;
+  margin: 0px;
 }
 
-.workjack {
-    margin: 5px;
-    
+.work,
+.educ {
+  margin: 5px;
 }
 
+.summaryjack,
+.summarytina {
+  margin: 5px;
+}
+
+.workjack,
 .educjack {
-    margin: 5px;
-  
+  margin: 5px;
 }
